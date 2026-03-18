@@ -1,10 +1,10 @@
 <?php
 // config.php - Veritabanı bağlantısı ve yardımcı fonksiyonlar
 
-define('DB_HOST',    'localhost');
-define('DB_USER',    'root');
-define('DB_PASS',    '');
-define('DB_NAME',    'fatura_takip');
+define('DB_HOST',    '212.64.193.200');
+define('DB_USER',    'agnowzbg_logis');
+define('DB_PASS',    'Kayra2190');
+define('DB_NAME',    'agnowzbg_logi');
 define('DB_CHARSET', 'utf8mb4');
 
 function getDB(): PDO {
