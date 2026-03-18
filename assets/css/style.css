@@ -1,0 +1,88 @@
+/* Fatura Takip Sistemi - Özel Stiller */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+.card-summary {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.15s ease;
+}
+
+.card-summary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.card-summary .card-body {
+    padding: 1.5rem;
+}
+
+.card-summary .icon-wrap {
+    font-size: 2.2rem;
+    opacity: 0.85;
+}
+
+.card-summary .value {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card-summary .label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.75;
+}
+
+/* DataTable içindeki action butonları */
+table.dataTable td .btn-sm {
+    padding: 0.2rem 0.45rem;
+    font-size: 0.78rem;
+}
+
+/* Totals bar (faturalar sayfası) */
+#totalsBar {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+#totalsBar .value {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Durum badge boyutları */
+.badge.fs-sm {
+    font-size: 0.78rem;
+}
+
+/* Bakiye pozitif/negatif renk */
+.text-balance-positive { color: #198754; font-weight: 600; }
+.text-balance-negative { color: #dc3545; font-weight: 600; }
+
+/* Modal header renk varyantları */
+.modal-header.bg-warning { color: #000; }
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Responsive kart grid */
+@media (max-width: 576px) {
+    .card-summary .value {
+        font-size: 1.35rem;
+    }
+}
