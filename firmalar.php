@@ -61,5 +61,4 @@
     </div>
 </div>
 
-<script src="/assets/js/firmalar.js"></script>
-<?php require_once 'includes/footer.php'; ?>
+<?php $page_script = '/assets/js/firmalar.js'; require_once 'includes/footer.php'; ?>

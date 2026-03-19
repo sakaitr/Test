@@ -5,5 +5,8 @@
 <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bootstrap5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<?php if (!empty($page_script)): ?>
+<script src="<?= $page_script ?>"></script>
+<?php endif; ?>
 </body>
 </html>

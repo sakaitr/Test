@@ -188,5 +188,4 @@ require_once 'includes/header.php';
     </div>
 </div>
 
-<script src="/assets/js/faturalar.js"></script>
-<?php require_once 'includes/footer.php'; ?>
+<?php $page_script = '/assets/js/faturalar.js'; require_once 'includes/footer.php'; ?>

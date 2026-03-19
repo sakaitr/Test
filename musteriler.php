@@ -94,5 +94,4 @@ require_once 'includes/header.php';
     </div>
 </div>
 
-<script src="/assets/js/musteriler.js"></script>
-<?php require_once 'includes/footer.php'; ?>
+<?php $page_script = '/assets/js/musteriler.js'; require_once 'includes/footer.php'; ?>

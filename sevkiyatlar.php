@@ -125,5 +125,4 @@ require_once 'includes/header.php';
     </div>
 </div>
 
-<script src="/assets/js/sevkiyatlar.js"></script>
-<?php require_once 'includes/footer.php'; ?>
+<?php $page_script = '/assets/js/sevkiyatlar.js'; require_once 'includes/footer.php'; ?>
