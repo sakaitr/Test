@@ -1,5 +1,5 @@
 -- ============================================================
--- Test Verisi - agnowzbg_logi veritabanı seçili iken import edin
+-- Test Verisi - agnocom_logi veritabanı seçili iken import edin
 -- ============================================================
 
 SET FOREIGN_KEY_CHECKS = 0;

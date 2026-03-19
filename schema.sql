@@ -1,6 +1,6 @@
 -- ============================================================
 -- Müşteri Fatura Takip Sistemi - Veritabanı Şeması
--- agnowzbg_logi veritabanı seçili iken import edin
+-- agnocom_logi veritabanı seçili iken import edin
 -- ============================================================
 
 -- Firmalar (Sevkiyat yapılan şirketler)
