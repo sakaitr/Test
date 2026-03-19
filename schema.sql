@@ -1,11 +1,7 @@
 -- ============================================================
 -- Müşteri Fatura Takip Sistemi - Veritabanı Şeması
+-- agnowzbg_logi veritabanı seçili iken import edin
 -- ============================================================
-CREATE DATABASE IF NOT EXISTS fatura_takip
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
-
-USE fatura_takip;
 
 -- Firmalar (Sevkiyat yapılan şirketler)
 CREATE TABLE IF NOT EXISTS firmalar (
